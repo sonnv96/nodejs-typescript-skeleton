@@ -1,8 +1,9 @@
 import swaggerJSDoc = require('swagger-jsdoc')
 import systemConstant from './config/system-constant'
-const baseHost = 'localhost:' + systemConstant.portLocal.toString()
+// const baseHost = 'localhost:' + systemConstant.portLocal.toString()
 // const baseHost = 'nodejs-api-landing.herokuapp.com/'
 // const baseHost = 's2nm-backend.herokuapp.com/'
+const baseHost = 'nodejs-ts-skeleton.herokuapp.com/'
 const options = {
   // List of files to be processed.
   apis: ['**/*.ts'],
